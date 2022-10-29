@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/global.css" />
+    <title>Sitemate Coding Challenge</title>
+  </head>
+  <body>
+    <section class="buttons">
+      <button
+        onclick="new Dialog('Are you sure you want to continue', ['Yes', 'Cancel'])"
+        class="button default"
+      >
+        Click me
+      </button>
+      <button
+        onclick="new Dialog('Will I move on to the next challenge?', ['Yes', 'No', 'Cancel'])"
+        class="button default"
+      >
+        Click me
+      </button>
+      <button
+        onclick="new Dialog('Who will win the next Champions League?', ['Real Madrid', 'Manchester City', 'Arsenal'])"
+        class="button default"
+      >
+        Click me
+      </button>
+    </section>
+    <p class="return_message"></p>
+    <script src="./scripts/components/dialog.js"></script>
+  </body>
+</html>
